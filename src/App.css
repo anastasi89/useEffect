@@ -1,0 +1,74 @@
+* {
+  box-sizing: border-box;
+}
+
+.container {
+  display: flex;
+  align-items: flex-start;
+}
+
+.list-user {
+  list-style: none;
+  margin: 0 30px 0 50px;
+  border: 1px solid rgba(206, 190, 190, 0.692);
+  padding: 0;
+  width: 200px;
+}
+
+.user-item {
+  padding: 10px;
+  border-bottom: 1px solid rgba(206, 190, 190, 0.692);
+  cursor: pointer;
+}
+
+.cardUser p, h5 {
+  margin: 0;
+  padding: 15px;
+  border-bottom: 1px solid rgba(206, 190, 190, 0.692);
+}
+
+.user-item:last-child, .cardUser p:last-child {
+  border-bottom: none;
+}
+
+.active {
+  background-color: rgb(42, 42, 231);
+  color: white;
+}
+
+.cardUser {
+  width: 250px;
+  border: 1px solid rgba(206, 190, 190, 0.692);
+}
+
+.card-avatar {
+  width: 100%;
+}
+
+.cardUser h5 {
+ font-weight: 500;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
